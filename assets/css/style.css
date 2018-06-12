@@ -1,0 +1,224 @@
+/* body{
+    background: url(../images/dark.png);
+    width:100%;
+    height:100%;
+    background-color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+} */
+
+/* Navigation Bar Styling */
+.navbar-header{
+    background-color: rgba(220, 220, 220, 0.815) ;
+    color: brown;
+}
+
+.container-fluid{
+    background-color:  rgba(220, 220, 220, 0.815);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.navbar-brand{
+    /*color:rgb(201, 16, 16); */
+    color: goldenrod;
+    background-color:  rgba(220, 220, 220, 0.815);
+    font-family: "BenchNine" sans-serif; 
+}
+.navbar-brand span{
+    /* background-color: darkcyan; */
+    color:rgb(201, 16, 16);
+    color: goldenrod;
+}
+.navbar-brand span:hover{
+    /* background-color: darkcyan; */
+    color: rgb(57, 9, 134);
+}
+.navbar-default{
+    background-color: rgba(220, 220, 220, 0.815);
+    color: brown;
+    color: goldenrod;
+    font-size: 1em;
+}
+.navbar-toggle{
+    color: black;
+    background-color: rgba(220, 220, 220, 0.815);
+}
+.navbar-nav{
+    color: aquamarine;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: "BenchNine" sans-serif; 
+    /*color:rgb(201, 16, 16); */
+    color: gold;
+    /* font-size: 1em;
+    font-weight: bold; */
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-nav li:hover{
+    /* color: #ffffff; */
+    color: rgb(80, 134, 9);
+    background: #4e4e4e;
+    transform: scale(1.25);
+}
+.icon-bar{
+    color: black;
+}
+/********************/
+/*Jumbotron Styling */
+/********************/
+.jumbotron{
+    color: goldenrod;
+    background-color: rgb(8, 8, 8);
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style: normal;
+    font-stretch: expanded;
+    font-size: 5ep;
+    text-align: center;
+}
+.jumbotron .jumbo-theme{
+    /* background-image: url("../images/fruits3.jpg"); */
+    background-blend-mode: screen;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: unset;
+}
+/*Footer Styling */
+/********************/
+/*Jumbotron Styling */
+/********************/
+.footer {
+    position: fixed;
+    color: goldenrod;
+    /* bottom: 0;
+    width: 100%; */
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  /* Footer Styling */
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  /********************/
+/*Jumbotron Styling */
+/********************/
+  .container {
+    width: auto;
+    max-width: 980px;
+    padding: 0 15px;
+    min-width: 480px;
+    overflow: auto;
+  }
+  body{
+      width:auto;
+  }
+  .col-md-12 {
+      background-color: #eeeeee;
+  }
+
+  .timetable {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(91, 94, 94);
+    color: #f5f5f5;
+    color: goldenrod;
+    /* padding: 10px 10px 10px 10px; */
+    border-radius: 10px;
+    /*border: 2px solid #cbcbcb; */
+    box-shadow: 10px 15px 5px #777;
+  }
+   .statustable{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(91, 94, 94);
+    color: #f5f5f5;
+    color: goldenrod;
+    /* padding: 10px 10px 10px 10px; */
+    border-radius: 10px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #777;
+  }
+  .questionanswersection {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      background-color: #fff;
+      background-color: #f1ededcc;
+      padding: 10px 50px 10px 50px;
+      border-radius: 15px;
+      border: 2px solid #cbcbcb;
+      box-shadow: 10px 15px 5px #777;
+
+  }
+
+  .questionanswersection .question h3{
+    font-family: sans-serif;
+    background-color: #1a6dbb;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(17, 16, 16);
+    color: white;
+    padding: 2px 0px;
+    border-radius: 20px;
+
+}
+.questionstyle{
+    color: #060316;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    
+}
+.optiontable{
+    width:100%;
+}
+.button-group{
+    margin-top: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+#bttn1 #bttn2 #bttn3 #bttn4{
+    text-align: center;
+}
+
+#questioncount{
+    color: rgb(219, 166, 30);
+    font-weight: 100;
+}
+.gamestart{
+    background-color: darkblue;
+}
+.btn{
+    width: 420px;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.btnStart{
+    width: 250px;
+    height: 50px;
+    padding: 3px;
+    margin: 3px;
+    margin-left: 325px;
+    border-radius: 10px;
+    color: rgb(69, 245, 69);
+    color:gold;
+    background-color: #0c0c0c;
+  }
+
+
+  /****************************************************/
+
+
+  

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Trivia Game
+        </title>
+        <link rel="shortcut icon" type="image/jpg" href="assets/images/hangman.jpg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" > 
+        <script src="assets/javascript/game.js"></script>
+        <!-- Google fonts selections    1. (CSS= font-family: 'Frank Ruhl Libre', serif;) 2. (CSS=font-family: 'Frank Ruhl Libre', serif;
+        font-family: 'BenchNine', sans-serif; 3. (CSS=font-family: 'Frank Ruhl Libre', serif;
+        font-family: 'BenchNine', sans-serif;
+        font-family: 'Sorts Mill Goudy', serif;-->
+        <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=BenchNine|Frank+Ruhl+Libre" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=BenchNine|Frank+Ruhl+Libre|Sorts+Mill+Goudy" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme|Enriqueta|Istok+Web|Quattrocento|Taviraj" rel="stylesheet">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    </head>
+    <!-- <body onload="initialload()"> -->
+    <body >
+        <div class="headerbackground">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container-fluid">
+                          <!-- Brand and toggle get grouped for better mobile display -->
+                          <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+
+                            <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Quiz" target="_blank">
+                                <span class="glyphicon glyphicon-globe" aria-hidden="true">Quizz</span>
+                            </a>
+                        </div>
+                </nav>
+        </div>
+        <div class="jumbotron">
+                <h1 class="display-h1">Trivia Game</h1>
+                <div class="jumbo-theme">
+                        <hr class="my-4" >
+                        <h3 class="display-h2"></h3>
+                        <!-- <h3 class="display-h2">Game Theme:</h3> -->
+                </div>
+            <br> <br>
+        </div>
+
+        <!-- Main Body of the Page-->
+        <div class="container">
+                <!--Side bar menu for selection> -->
+                <div class="col-md-12 side-bar timetable">
+                        <span><h3>Time Remaining:
+                        <label id="timeremain">00:00</label></h3>
+                        </span> 
+                        <div id="result" class="quizzstatus">
+                                <span><h4><label id="quizzstatus1">Press Start to begin the Quizz...</label></h4></span>
+                                <span><h4><label id="quizzstatus2"></label></h4></span>
+                        </div>
+
+                </div>
+
+                <div id="qandasection" class="col-md-12 questionanswersection">
+                        <div class="question">
+                                <h3>Question:</h3>
+                                <p class="questionstyle">
+                                        
+                                </p>
+                                <hr>
+                        </div>
+                        <div class="answers">
+                                <div class="answer-options">
+                                        <div class="button-group">
+                                                <table class="optiontable">
+                                                <tr>
+                                                        <td>
+                                                                <button id="bttn1"  type="button"  class="btn btn-primary  btn-lg btn-block"></span></button>
+                                                                <!-- <button id="bttn1"  type="button" onclick="selectChoice(this.id, 'A')" class="btn btn-primary  btn-lg btn-block"></span></button> -->
+                                                        </td>
+                                                        <td>
+                                                                <button id="bttn2"  type="button"  class="btn btn-primary btn-lg btn-block"></span></button>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>
+                                                                <button id="bttn3"  type="button"  class="btn btn-primary  btn-lg btn-block"></span></button>
+                                                        </td>
+                                                        <td>
+                                                                <button id="bttn4"  type="button"  class="btn btn-primary  btn-lg btn-block"></span></button>
+                                                        </td>
+                                                </tr> 
+                                                </table>                                                                                                                   
+                                        </div>
+                                </div>
+                        </div>
+                        <hr>
+                        <div id="progress">
+                                <p id="questioncount">Question x of y
+                                </p>
+                        </div>
+                </div>
+                <hr>
+                <div class="col-md-12 side-bar statustable">
+                        <div id="result" class="quizzresult">
+                                <span><h5><label id="quizzstatus3"></label></h5></span>
+                                <span><h5><label id="quizzstatus4"></label></h5></span>
+                                <span><h5><label id="quizzstatus5"></label></h5></span>
+                        </div>
+                        <div class="gameStart">
+                                <button id="bttnGameStart" type="button"  class="btn btn-primary btn-lg btnStart btn-success">Start the Game</button>
+                        </div>
+                  </div>
+
+        </div>
+
+        <footer class="footer position-sticky">
+                <div class="container">
+                  <span >Copyright &copy;.</span>
+                </div>
+        </footer>  
+    </body>
+</html>        
